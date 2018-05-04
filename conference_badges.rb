@@ -18,6 +18,7 @@ attendees.each do |x|
   room_num+=1
 check.push("Hello, #{x}! You'll be assigned to room #{room_num}!")
 end
+check
 end
 
 def printer
