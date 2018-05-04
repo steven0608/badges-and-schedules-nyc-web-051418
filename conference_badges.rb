@@ -13,9 +13,10 @@ end
 
 def assign_rooms(attendees)
 room_num=0
+check=[]
 attendees.each do |x|
   room_num+=1
-  return "Hello, #{x}! You'll be assigned to room #{room_num}!"
+check.push("Hello, #{x}! You'll be assigned to room #{room_num}!")
 end
 end
 
