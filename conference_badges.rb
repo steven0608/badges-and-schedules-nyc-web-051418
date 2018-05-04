@@ -13,12 +13,12 @@ end
 
 def assign_rooms(attendees)
 room_num=0
-check=[]
+room_assignments=[]
 attendees.each do |x|
   room_num+=1
-check.push("Hello, #{x}! You'll be assigned to room #{room_num}!")
+room_assignments.push("Hello, #{x}! You'll be assigned to room #{room_num}!")
 end
-check
+room_assignments
 end
 
 def printer
